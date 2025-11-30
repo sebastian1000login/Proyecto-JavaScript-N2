@@ -2,7 +2,7 @@
 
 create user 'dbaccess'@localhost identified by 'password';
 
-grant all privileges on "*.*" to 'dbaccess'@localhost identified by 'password';
+grant all privileges on \*.\* to 'dbaccess'@localhost identified by 'password';
 
 flush privileges;
 
